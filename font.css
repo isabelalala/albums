@@ -1,0 +1,7 @@
+	  @font-face {
+   font-family: 'Lemon Tuesday';
+   src: url(Lemon Tuesday.otf) format('otf');
+}
+	h1, h2 {
+	font-family: 'Lemon Tuesday', handwritten;
+}
