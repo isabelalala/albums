@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+	   <title>wedding</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="photos">
+    <meta name="author" content="Isabel Lah">
+</head>
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    -ms-flex: 25%; /* IE10 */
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+    .column {
+        -ms-flex: 50%;
+        flex: 50%;
+        max-width: 50%;
+    }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+    .column {
+        -ms-flex: 100%;
+        flex: 100%;
+        max-width: 100%;
+    }
+}
+</style>
+<body>
+
+<!-- Header -->
+<div class="header">
+  <h1><i>w e d d i n g</h1></i>
+  <p> My first wedding photography experience! The event took place at the bride's house at the backyard. This was also my first time finding out that a couple did not desire a wedding ceremony, so many things were very casual. </p>
+</div>
+
+<!-- Photo Grid -->
+<div class="row"> 
+  <div class="column">
+    <img src="200.jpg" style="width:100%">
+    <img src="201.jpg" style="width:100%">
+    <img src="202.jpg" style="width:100%">
+    <img src="203.jpg" style="width:100%">
+    <img src="204.jpg" style="width:100%">
+    <img src="205.jpg" style="width:100%">
+  </div>
+  <div class="column">
+
+  	<img src="206.jpg" style="width:100%">
+    <img src="207.jpg" style="width:100%">
+    <img src="208.jpg" style="width:100%">
+    <img src="209.jpg" style="width:100%">
+    <img src="210.jpg" style="width:100%">
+  </div>  
+  <div class="column">
+    <img src="211.jpg" style="width:100%">
+    <img src="212.jpg" style="width:100%">
+    <img src="213.jpg" style="width:100%">
+    <img src="214.jpg" style="width:100%">
+  	<img src="215.jpg" style="width:100%">
+</div>
+</body>
+</html>
