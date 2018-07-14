@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Music</title>
+    
+    <style>
+    #layout {
+      display: grid;
+    grid-template-rows: 1fr 1fr 1fr; /*fr - fraction */
+   /* grid-template-columns: 2fr 1fr 1fr; */
+   grid-template-columns: repeat(3, 1fr);
+    min-width: 90vw;
+    min-height: 90vh;
+    /*gutters / margins between child elements */
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+    /*for both columns and rows when same value 
+    grid-gap: 2em; */
+    }
+    div {
+      border: 1px solid white;
+      text-align: center;
+    }
+  </style>
+
+  </head>
+
+  <body>
+<h1> Music</h1>
+      <div id="layout">
+
+        <div id="one"><audio src="Rhythm Changes.mp3" controls> <br></audio></div>
+    <audio src="I Hate LaGuardia HS - Chris Lah.mp3" controls> <br></audio></div>
+        <div id="three"><audio src="yoursong_samkim_versecover.mp3" controls> <br></audio></div>
+        <div id="four"><audio src="chop waltz.m4a" controls> <br></audio></div>
+
+      <!--
+        <div id="one">One</div>
+        <div id="two">Two</div>
+        <div id="three">Three</div>
+        <div id="four">Four</div>
+        <div id="five">Five</div>
+        <div id="six">Six</div>
+        <div id="seven">Seven</div>
+        <div id="eight">Eight</div>
+        <div id="nine">Nine</div>
+        <div id="ten">Ten</div>
+      -->
+
+      </div>
+
+  </body>
+</html>
