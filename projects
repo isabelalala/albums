@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <body style="background-color:#F9EDE3">
+  <head>
+    <title> PROJECTS</title>
+    <link rel="stylesheet" type="text/css" href="font.css">
+ <link href='https://fonts.googleapis.com/css?family=Gaegu' rel='stylesheet'>
+ 
+<style>
+p {
+    font-family: 'Gaegu';font-size: 15px;
+}
+    
+    #layout {
+      display: grid;
+    grid-template-rows: 1fr 1fr 1fr; /*fr - fraction */
+   /* grid-template-columns: 2fr 1fr 1fr; */
+   grid-template-columns: repeat(3, 1fr);
+    min-width: 90vw;
+    min-height: 90vh;
+    /*gutters / margins between child elements */
+    grid-column-gap: 2em;
+    grid-row-gap: 2em;
+    /*for both columns and rows when same value 
+    grid-gap: 2em; */
+    }
+    div {
+      border: 1px solid white;
+      text-align: center;
+    }
+  </style>
+
+  </head>
+
+  <body>
+<h1 align="center">PROJECTS</h1>
+    <p><i><a href="https://isabelalala.github.io/albums/index.html">home</a>
+      </i></p>
+      <div id="layout">
+
+        <div id="one"> 
+          <h2>Movie Credits</h2>
+          <iframe width="640" height="564" src="https://player.vimeo.com/video/321952382" frameborder="0" allowFullScreen mozallowfullscreen webkitAllowFullScreen></iframe>
+          <p>My version of opening credits for "Inside Out."</p> 
+        </div>
+        
+        <div id="two">
+          <h2>Animation Interpretation</h2>
+     <iframe width="560" height="315" src="https://www.youtube.com/embed/lIS7WWhtwuk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p>Animation interpretation of 3 artworks. <br></p>
+        </div>
+        
+        <div id="three">
+          <h2>poem by Rupi Kaur</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/RBdmSQPSSDw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <p>kinetic typography</p> 
+            </div>
+          
+        <div id="four">
+          <h2>excerpt from "The World Is Too Much With Us"</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/9cjNwAe_oz0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>lines 5-6 from "The World Is Too Much With Us" by William Wordsworth</p>
+          </div>
+        
+        <div id="five">
+          <h2>Ramen app</h2>
+          <iframe src="https://player.vimeo.com/video/327869492" width="640" height="400" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <p>This is a final group project for Digital Design class. We used Adobe XD and Illustrator. The concept of this app is to make the user feel comfortable, by having the grandma, the app's character, guide the user in making food. Once you click on the app, the user is notified that they can order the needed ingredients and have it delivered. When the user chooses a food, there is a "step-by-step" mode rather than a video, so that the user and the grandma are both on the same page. This mode also helps when the user is unfamiliar with the making process. The homepage includes various ethnic foods to be chosen from. The "Settings" tab includes account information, such as contact and card info. In "My Profile," one can see their previous and processing orders, and a tracking of their activity.</p>
+          </div>
+          
+        <div id="six">
+          <h2>MAGIC BURGER</h2>
+          <a href="midterm-Isabel Lah.pdf">click to see</a>
+          <p>When you eat this magic burger, you will consume magic!</p></div>
+          
+        <div id="seven">
+          <h2>Concert Poster Ideas</h2>
+          <a href="typographic system.pdf">click to see</a>
+          <p>various poster ideas using different Illustrator tools for a concert</p></div>
+
+        <div id="eight">
+          <h2>5 senses // when you wake up</h2>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/RjdufOIL6m8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          
+        <div id="nine">
+          <h2>Concert Poster Ideas</h2>
+          <iframe src="https://player.vimeo.com/video/327875272" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+          <p>various poster ideas using different Illustrator tools for a concert</p></div>
+          
+
+      <!--
+        <div id="one">One</div>
+        <div id="two">Two</div>
+        <div id="three">Three</div>
+        <div id="four">Four</div>
+        <div id="five">Five</div>
+        <div id="six">Six</div>
+        <div id="seven">Seven</div>
+        <div id="eight">Eight</div>
+        <div id="nine">Nine</div>
+        <div id="ten">Ten</div>
+      -->
+
+      </div>
+
+  </body>
+</html>
